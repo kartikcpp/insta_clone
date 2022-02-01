@@ -13,8 +13,9 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Insta_Clone',
       debugShowCheckedModeBanner: false,
+      theme: ThemeData.dark(),
       
-      home: Text('lets build'),
+      home: const Scaffold(body: Text('lets build')),
     );
   }
 }
